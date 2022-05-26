@@ -3,7 +3,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
 const Body = () => {
   return (
-    <div>
+    <div className="block">
       {/* 1st row */}
       <div className="relative">
         <div className="w-4/5 mx-auto flex absolute top-[-300px] left-[10%]">

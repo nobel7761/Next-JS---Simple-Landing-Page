@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Banner></Banner>
       <Body></Body>
       {/* <Footer></Footer> */}

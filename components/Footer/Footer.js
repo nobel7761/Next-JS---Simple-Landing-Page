@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="relative">
-      <div className="absolute bottom-[-1800px] bg-red-500">
+    <section className="">
+      <div className=" bg-red-500">
         <div className=" py-10 flex justify-between">
           <div className="flex flex-col justify-between">
             <div className="text-white">
