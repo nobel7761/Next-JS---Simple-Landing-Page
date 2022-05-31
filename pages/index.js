@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-col">
       <Banner></Banner>
       <Body></Body>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

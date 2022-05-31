@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { UserCircleIcon, ArrowDownIcon } from "@heroicons/react/solid";
+import HeadlessTab from "./../../pages/headlessTab";
 
 const Banner = () => {
   return (
@@ -10,7 +11,9 @@ const Banner = () => {
           <p className="text-3xl font-bold">MNTN</p>
         </div>
         <div className="flex justify-between">
-          <p className="mr-10">EQUIPMENT</p>
+          <Link href="/headlessTab">
+            <a className="mr-10 hover:text-red-500">HEADLESS TAB</a>
+          </Link>
           <p className="mr-10">ABOUT US</p>
           <p>BLOG</p>
         </div>
